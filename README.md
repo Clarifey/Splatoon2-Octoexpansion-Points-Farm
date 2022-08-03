@@ -4,7 +4,7 @@ Its go in a Level and then Farm Points.
 
 What you need:
 1.An Arduino Leonardo or other Micro Controller with an atmega32u4 chip.
-2.Two Wires
+2.Two Wires Male to Male
 3.Micro Usb Cable
 4.Pc or Laptop
 5.A Nintendo Switch
@@ -12,8 +12,20 @@ What you need:
 
 How to setup. 
 
-First open a Terminal and go to the directory:
+First open a Terminal and go to the Splatoon2-Octoexpansion-Points-Farm directory,run:
 ```
 make
 ```
-After thath run 
+After thath Plug your Arduino in youre Pc and One Wire in an Ground pin and the other Wire in the Reset pin and Short the together now look in the device manager wich COM pops up and put the number in the command after COM and run it:
+```
+avrdude -v -patmega32u4 -cavr109 -PCOM -Uflash:w:Joystick.hex
+```
+Have Fun with it if any Problem or Question ask me.
+
+#### Thanks
+
+Thanks to https://github.com/CraftyDuck100/woff-grinder i used it to make the Splatoon 2 Farm Script.
+
+Thanks to https://github.com/bertrandom/snowball-thrower for the updated information which modifies the original script to throw snowballs in Zelda. This C Source is much easier to start from, and has a nice object interface for creating new command sequences.
+
+Thanks to Shiny Quagsire for his [Splatoon post printer](https://github.com/shinyquagsire23/Switch-Fightstick) and progmem for his [original discovery](https://github.com/progmem/Switch-Fightstick).
