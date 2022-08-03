@@ -19,7 +19,7 @@ First open a Terminal and go to the Splatoon2-Octoexpansion-Points-Farm director
 ```
 make
 ```
-After thath Plug your Arduino in youre Pc and One Wire in an Ground pin and the other Wire in the Reset pin and Short the together now look in the device manager wich COM pops up and put the number in the command after COM and run it:
+After thath Plug your Arduino in youre Pc and One Wire in an Ground pin and the other Wire in the Reset pin and Short them together now look in the device manager wich COM pops up and put the number in the command after COM and run it:
 ```
 avrdude -v -patmega32u4 -cavr109 -PCOM -Uflash:w:Joystick.hex
 ```
