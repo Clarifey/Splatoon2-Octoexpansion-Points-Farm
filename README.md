@@ -23,6 +23,12 @@ After thath Plug your Arduino in youre Pc and One Wire in an Ground pin and the 
 ```
 avrdude -v -patmega32u4 -cavr109 -PCOM -Uflash:w:Joystick.hex
 ```
+In Splatoon2 in the normal Lobby press plus and go to the settings and change the right stick Sensy to 0.
+
+After thath go in octo expansion in the grey line and play the Level DO2 with the two snipers.
+
+And After thath plug the arduino in when you in the normal Octo Expansion Underground Bahn dont press anthing on your controller.
+
 Have Fun with it if any Problem or Question ask me.
 
 #### Thanks
