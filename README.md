@@ -13,7 +13,7 @@ What you need:
 How to setup. 
 
 Make in the directory a new folder with the Name lufa and download this file from here:https://github.com/abcminiuser/lufa/tree/597fbf47cd2551423a231ac747e2f1405cf9306a
-and put them in the lufa folder.
+and extract them in the lufa folder.
 
 First open a Terminal and go to the Splatoon2-Octoexpansion-Points-Farm directory,run:
 ```
