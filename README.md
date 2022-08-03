@@ -10,9 +10,10 @@ What you need:
 5.A Nintendo Switch
 ---
 
-How to use
+How to setup. 
 
-run:
+First open a Terminal and go to the directory:
 ```
 make
 ```
+After thath run 
